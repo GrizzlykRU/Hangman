@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 2a07890f51af2e34f8900c2bad52cd32, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 5946300131782950937
+  m_TableData:
+  - m_Id: 91015229440
+    m_Localized: HANGMAN THE GAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 786841874432
+    m_Localized: After starting the game, choose one letter from the alphabet. Your
+      goal is to guess the word. With each wrong letter, a gallows element will appear
+      on the screen. When the entire gallows appears on the screen, you have lost.
+      If you guess any letter from the word, then this letter will be open.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 856270188544
+    m_Localized: PLAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 937614520320
+    m_Localized: PLAY AGAIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1483201196032
+    m_Localized: 'Won: {global.victoryCount}. Lost: {global.defeatCount}.'
+    m_Metadata:
+      m_Items:
+      - rid: 5946300131782950937
+  - m_Id: 90833020661760
+    m_Localized: They hung Curly Bobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90153463721984
+    m_Localized: VICTORY!!!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 5946300131782950937
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0030ae5559010000
