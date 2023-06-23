@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UI
+  m_TableCollectionNameGuidString: 2a07890f51af2e34f8900c2bad52cd32
+  m_Entries:
+  - m_Id: 91015229440
+    m_Key: head
+    m_Metadata:
+      m_Items: []
+  - m_Id: 786841874432
+    m_Key: state_start.rules
+    m_Metadata:
+      m_Items: []
+  - m_Id: 856270188544
+    m_Key: state_start.button_start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 937614520320
+    m_Key: state_game.button_start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1483201196032
+    m_Key: state_game.status
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90153463721984
+    m_Key: state_game.victory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90833020661760
+    m_Key: state_game.game_over
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 5946300131782950936
+  references:
+    version: 2
+    RefIds:
+    - rid: 5946300131782950936
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1687441804095
